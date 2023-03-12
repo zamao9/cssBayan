@@ -191,3 +191,45 @@ input:checked ~ .accordeon__body {
     font-size: 20px;
   }
 }
+
+@media (min-width: 1920px) {
+  .section {
+    padding: 100px 0;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .accordeon__title h1 {
+    font-size: 65px;
+  }
+
+  .accordeon__head {
+    padding: 30px 15px;
+  }
+
+  .accordeon__head span {
+    font-size: 28px;
+  }
+
+  .icon {
+    top: 34px;
+    right: 15px;
+    font-size: 28px;
+  }
+
+  .accordeon__items:hover .accordeon__body {
+    height: 540px;
+    padding: 10px 0 30px;
+  }
+  input:checked ~ .accordeon__body {
+    height: 540px;
+    padding: 10px 0 30px;
+  }
+
+  .accordeon__img {
+    width: 500px;
+    height: 500px;
+  }
+}
