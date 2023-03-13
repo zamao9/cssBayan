@@ -115,11 +115,12 @@ input {
 .icon {
   position: absolute;
   z-index: 1;
-  top: 11px;
+  top: 6px;
   right: 5px;
 
   opacity: 0;
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: 800
   transition: 0.5s ease;
 }
 .accordeon__content:hover .icon {
@@ -187,8 +188,8 @@ input:checked ~ .accordeon__body {
   }
 
   .icon {
-    top: 20px;
-    font-size: 20px;
+    top: 16px;
+    font-size: 32px;
   }
 }
 
@@ -214,9 +215,9 @@ input:checked ~ .accordeon__body {
   }
 
   .icon {
-    top: 34px;
+    top: 22px;
     right: 15px;
-    font-size: 28px;
+    font-size: 54px;
   }
 
   .accordeon__items:hover .accordeon__body {
