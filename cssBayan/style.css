@@ -120,7 +120,7 @@ input {
 
   opacity: 0;
   font-size: 28px;
-  font-weight: 800
+  font-weight: 800;
   transition: 0.5s ease;
 }
 .accordeon__content:hover .icon {
